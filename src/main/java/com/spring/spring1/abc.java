@@ -11,4 +11,8 @@ public class abc {
     String home(){
         return "welcome";
     }
+    @GetMapping(path = "/demo")
+    String demo(){
+        return "demo";
+    }
 }
